@@ -127,7 +127,7 @@ func main() {
 					message.VictimName, message.VictimTribe,
 					message.KillerName, message.KillerTribe,
 					message.LossType,
-					message.SolarSystemName, AtlasLink
+					message.SolarSystemName, AtlasLink,
 					localTime.Format("2006-01-02 15:04:05 MST"))
 				// Print error if not sent to discord
 				err = sendToDiscord(discordWebhookURL, fullMessage)
