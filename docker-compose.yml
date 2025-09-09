@@ -1,0 +1,16 @@
+# Services that you intend to run with docker
+services:
+  # Name of service
+  websocket-listener:
+    # Our build files location, i.e. dockerfile
+    build: ./Websocket-Listener
+    # Environment variables for the Go to read.
+    environment:
+      # Alpha-Strike Websocket: https://api.alpha-strike.space/documentation/
+      - WEBSOCKET_URI=wss://api.alpha-strike.space/ws/mails
+      # Your discord webhook: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks
+      - DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/1414767524402298911/7eQ0s4Ra-qTXdqF--IRUuipZGPpNNq-zucklIpQUEHn9r9gz2_sOyhYg6-apOT9xBmMN
+      # Keep UTC, set false and it uses local machine time.
+      - USE_UTC=true
+    # Always restart your service, until you kill it.
+    restart: always
