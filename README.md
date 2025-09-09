@@ -24,6 +24,7 @@ Build the project if any modifications are made:
 ```bash
 go mod init websocket-relay
 ```
+
 ```bash
 go mod tidy
 ```
@@ -42,11 +43,18 @@ Build and run image:
 docker compose up -d
 ```
 
-Clear container:
+Stop container:
 
 ```bash
 docker compose down
 ```
+
+Clean unused container/cache:
+
+```bash
+docker system prune -a
+```
+
 ---
 
 ## Configuration
