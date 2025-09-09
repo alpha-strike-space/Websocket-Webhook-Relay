@@ -114,7 +114,7 @@ func main() {
 				// Dynamically create the clickable link using the Kill ID
 				AlphaLink := fmt.Sprintf("https://alpha-strike.space/pages/killmail.html?mail_id=%d", message.ID)
 				// Dynamically create the clickable link using the System ID
-				AtlasLink := fmt.Sprintf("https://frontier-atlas.com/map?system=%d", solarSystemID)
+				AtlasLink := fmt.Sprintf("https://frontier-atlas.com/map?system=%d", message.solarSystemID)
 				// Construct the formatted string with Markdown
 				fullMessage := fmt.Sprintf(
 					"**Kill:** [Alpha-Strike](%s)\n" +
