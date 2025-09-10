@@ -1,13 +1,13 @@
 package main
 // Packages
 import (
-	"log"https://frontier-atlas.com/map?system=%d", message.SolarSystemID)
-	"net/http"https://frontier-atlas.com/map?system=%d", message.SolarSystemID)
+	"log"
+	"net/http"
 	"os"
 	"time"
 	"bytes"
 	"encoding/json"
-	"fmt"https://frontier-atlas.com/map?system=%d", message.SolarSystemID)
+	"fmt"
 	"github.com/gorilla/websocket"
 )
 // InboundMessage represents a single item from the WebSocket JSON array
