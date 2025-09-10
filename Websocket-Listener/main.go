@@ -123,7 +123,8 @@ func main() {
 					"**Loss Type:** %s\n" +
 					"**Location:** [%s](%s)\n" +
 					"**Time:** %s",
-					message.ID, AlphaLink,
+					AlphaLink,
+					message.ID,
 					message.VictimName, message.VictimTribe,
 					message.KillerName, message.KillerTribe,
 					message.LossType,
