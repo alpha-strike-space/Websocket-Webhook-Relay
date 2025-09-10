@@ -124,7 +124,6 @@ func main() {
 					"**Location:** [%s](%s)\n" +
 					"**Time:** %s",
 					AlphaLink,
-					message.ID,
 					message.VictimName, message.VictimTribe,
 					message.KillerName, message.KillerTribe,
 					message.LossType,
