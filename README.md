@@ -29,7 +29,7 @@ go mod init websocket-relay
 go mod tidy
 ```
 
-> Optionally, check if the project requires configuration (e.g., WEBHOOK_URL). Review the README or source code for details.
+> Check if the project requires configuration (e.g., WEBHOOK_URL). Review the README or source code for details.
 
 ---
 
