@@ -1,13 +1,13 @@
 package main
 // Packages
 import (
-	"log"
-	"net/http"
+	"log"https://frontier-atlas.com/map?system=%d", message.SolarSystemID)
+	"net/http"https://frontier-atlas.com/map?system=%d", message.SolarSystemID)
 	"os"
 	"time"
 	"bytes"
 	"encoding/json"
-	"fmt"
+	"fmt"https://frontier-atlas.com/map?system=%d", message.SolarSystemID)
 	"github.com/gorilla/websocket"
 )
 // InboundMessage represents a single item from the WebSocket JSON array
@@ -114,7 +114,7 @@ func main() {
 				// Dynamically create the clickable link using the Kill ID
 				AlphaLink := fmt.Sprintf("https://alpha-strike.space/pages/killmail.html?mail_id=%d", message.ID)
 				// Dynamically create the clickable link using the System ID
-				AtlasLink := fmt.Sprintf("https://frontier-atlas.com/map?system=%d", message.solarSystemID)
+				AtlasLink := fmt.Sprintf("https://frontier-atlas.com/map?system=%d", message.SolarSystemID)
 				// Construct the formatted string with Markdown
 				fullMessage := fmt.Sprintf(
 					"**Kill:** [Alpha-Strike](%s)\n" +
