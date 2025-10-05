@@ -1,5 +1,5 @@
 # Minimal Go Image
-FROM golang:1.21-alpine AS builder
+FROM golang:1.22.4 AS builder
 # Working directory
 WORKDIR /app
 # Copy the Go modules files and download dependencies
